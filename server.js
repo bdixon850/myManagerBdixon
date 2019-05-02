@@ -31,7 +31,8 @@ db.Contractor.create({ name: "Morgan", email: "morgan@gmail.com", occupation: "P
     })
 
 
-require('./routes/api-routes')(app)
+require('./routes/api-routes')(app);
+// require('./routes/routes')(router);
 
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
