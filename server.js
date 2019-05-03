@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const app = express();
 const db = require('./models');
 
+const something = "hello";
+
 
 // Define middleware
 app.use(express.urlencoded({ extended: true }));
